@@ -1,3 +1,4 @@
+
 html{
     background-color: rgb(52, 52, 52);
 }
@@ -6,14 +7,15 @@ html{
     right: 0;
     width: 100%;
     height: 100%;
-    position: relative;
+    display: block;
+    position: fixed;
 }
 .lateral{
     height: 100%;
     width: 20%;
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background-color: rgb(60, 60, 60);
 }
 nav a{
@@ -28,56 +30,55 @@ nav a:hover{
     color: black;
 }
 .cuadro-azul{
+    display: flex;
     margin-left: 20%;
     width: 78%;
     height: 25%;
     background: rgb(0, 215, 244);
-    text-align: justify;
     text-indent: 10%;
     color: rgb(0, 0, 0);
+    overflow: auto;
 }
 .cuadro-amarillo{
+    display: flex;
     margin-left: 20%;
     width: 78%;
     height: 25%;
     background: rgb(255, 245, 0);
-    text-align: justify;
     text-indent: 10%;
     color: rgb(0, 0, 0);
+    overflow: auto;
+
 }
 .cuadro-naranja{
+    display: flex;
     margin-left: 20%;
     width: 78%;
     height: 25%;
     background: rgb(253, 122, 2);
-    text-align: justify;
     text-indent: 10%;
     color: rgb(0, 0, 0);
+    overflow: auto;
+
 }
-.cuadro-rojo{
+#cuadro-rojo{
+    display: flex;
     margin-left: 20%;
     width: 78%;
     height: 25%;
     background: rgb(254, 0, 10);
-    text-align: justify;
     text-indent: 10%;
     color: rgb(0, 0, 0);
+    overflow: auto;
+
+
 }
-a{
+p{
     font-weight: 600;
-    /* font-size: 100%; */
-    font-size: auto;
+    font-size: 25px;
     font-family: sans-serif;
-    text-align: end;
+    word-wrap: break-word;
 }
 span{
     font-size: 30px;
 }
-/* #tablaPrueba{
-    width: 80%;
-    height: 25%;
-    background: white;
-    margin-left: 20%;
-    text-indent: 20%;
-    text-align: justify;
-} */
