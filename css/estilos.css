@@ -2,36 +2,32 @@ html{
     background-color: rgb(52, 52, 52);
 }
 .cuerpoCentral{
+    top: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    position: absolute;
-}
-div{   
     position: relative;
-    border: 1%;
 }
 .lateral{
     height: 100%;
-    width: 20% ;
+    width: 20%;
     top: 0;
     left: 0;
-    position: fixed;
+    position: absolute;
     background-color: rgb(60, 60, 60);
-    padding-top: 20px;
 }
 nav a{
-    text-indent: 10%;
     display: block;
-    padding: 2% 4%;
+    padding: 8% 10%;
     text-decoration: none;
     color: lightgray;
     font-size: 20px;
-}
+    text-align: center;
+} 
 nav a:hover{
     color: black;
 }
-
-.barras{
+.cuadro-azul{
     margin-left: 20%;
     width: 78%;
     height: 25%;
@@ -40,8 +36,7 @@ nav a:hover{
     text-indent: 10%;
     color: rgb(0, 0, 0);
 }
-
-.barras2{
+.cuadro-amarillo{
     margin-left: 20%;
     width: 78%;
     height: 25%;
@@ -50,7 +45,7 @@ nav a:hover{
     text-indent: 10%;
     color: rgb(0, 0, 0);
 }
-.barras3{
+.cuadro-naranja{
     margin-left: 20%;
     width: 78%;
     height: 25%;
@@ -59,7 +54,7 @@ nav a:hover{
     text-indent: 10%;
     color: rgb(0, 0, 0);
 }
-.barras4{
+.cuadro-rojo{
     margin-left: 20%;
     width: 78%;
     height: 25%;
@@ -73,17 +68,16 @@ a{
     /* font-size: 100%; */
     font-size: auto;
     font-family: sans-serif;
+    text-align: end;
 }
 span{
     font-size: 30px;
-
 }
-
-#tablaPrueba{
+/* #tablaPrueba{
     width: 80%;
     height: 25%;
     background: white;
     margin-left: 20%;
     text-indent: 20%;
     text-align: justify;
-}
+} */
